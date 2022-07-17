@@ -10,15 +10,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/global-style.css">
   <link rel="stylesheet" href="css/header-style.css">
+  <link rel="stylesheet" href="css/section-one.css">
+  <link rel="stylesheet" href="css/section-two.css">
+  <link rel="stylesheet" href="css/section-three.css">
+  <link rel="stylesheet" href="css/footer.css">
   <script src="scripts/slider.js" defer></script>
   <script src="scripts/search-bar.js" defer></script>
   <title>TIMGAD INFORMATIQUE | HOME</title>
 </head>
 <body>
+
+  <!-- SEARCH BAR -->
   <form class="search-input" action="">
     <input class="search-area" type="text" placeholder="  search...">
     <button class="input-btn" type="reset"><i class="fas fa-xmark"></i></button>
   </form>
+  <!-- SEARCH BAR -->
+
+  <!-- HEADER -->
   <header class="main-header">
     <nav class="nav-bar">
       <div class="logo">
@@ -38,36 +47,194 @@
         <button class="user"><i class="fas fa-user"></i></button>
       </div>
     </nav>
+    <div class="welcome-section">
+      <h1>welcome to your best store</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum reprehenderit, sed laborum labore itaque illo ex error voluptate quas minima.</p>
+      <button>explore</button>
+    </div> 
+  </header>
+  <!-- HEADER -->
+
+  <!-- SECTION ONE -->
+  <section class="section-one">
+    <div class="heading">
+      <h1 class="title">new arrivals</h1>
+      <p class="subtitle">we bring the best products</p>
+    </div>
     <div class="slider-container">
-      <div class="product-showcase active">
-        <div class="product-info">
-          <span class="product-title">macbook pro m1 2022</span>
-          <span class="product-specs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque.</span>
-          <span class="product-price">$1999</span>
-          <div class="btns">
-            <button class="buy-btn">buy now</button>
-            <button class="view-btn">view</button>
+      <button class="left-slide-btn"><i class="fas fa-chevron-left"></i></button>
+      <button class="right-slide-btn"><i class="fas fa-chevron-right"></i></button>
+      <div class="items-slider">
+        <div class="item-container">
+          <img class="item-image" src="img/showcase product.png" alt="">
+          <h2 class="item-name">lenovo yoga</h2>
+          <p class="item-specs">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta!</p>
+          <p class="item-price">$388</p>
+          <div class="item-btns">
+            <button class="item-buy-btn">buy now</button>
+            <button class="item-view-btn">view</button>
           </div>
         </div>
-        <div class="product">
-          <img src="img/showcase product.png" alt="">
-        </div>
-      </div>
-      <div class="product-showcase">
-        <div class="product-info">
-          <span class="product-title">dell xps 17</span>
-          <span class="product-specs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque.</span>
-          <span class="product-price">$1999</span>
-          <div class="btns">
-            <button class="buy-btn">buy now</button>
-            <button class="view-btn">view</button>
+        <div class="item-container">
+          <img class="item-image" src="img/showcase product.png" alt="">
+          <h2 class="item-name">lenovo yoga</h2>
+          <p class="item-specs">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta!</p>
+          <p class="item-price">$388</p>
+          <div class="item-btns">
+            <button class="item-buy-btn">buy now</button>
+            <button class="item-view-btn">view</button>
           </div>
         </div>
-        <div class="product">
-          <img src="img/showcase product1.png" alt="">
+        <div class="item-container">
+          <img class="item-image" src="img/showcase product.png" alt="">
+          <h2 class="item-name">lenovo yoga</h2>
+          <p class="item-specs">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta!</p>
+          <p class="item-price">$388</p>
+          <div class="item-btns">
+            <button class="item-buy-btn">buy now</button>
+            <button class="item-view-btn">view</button>
+          </div>
+        </div>
+        <div class="item-container">
+          <img class="item-image" src="img/showcase product.png" alt="">
+          <h2 class="item-name">lenovo yoga</h2>
+          <p class="item-specs">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta!</p>
+          <p class="item-price">$388</p>
+          <div class="item-btns">
+            <button class="item-buy-btn">buy now</button>
+            <button class="item-view-btn">view</button>
+          </div>
+        </div>
+        <div class="item-container">
+          <img class="item-image" src="img/showcase product.png" alt="">
+          <h2 class="item-name">lenovo yoga</h2>
+          <p class="item-specs">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta!</p>
+          <p class="item-price">$388</p>
+          <div class="item-btns">
+            <button class="item-buy-btn">buy now</button>
+            <button class="item-view-btn">view</button>
+          </div>
+        </div>
+        <div class="item-container">
+          <img class="item-image" src="img/showcase product.png" alt="">
+          <h2 class="item-name">lenovo yoga</h2>
+          <p class="item-specs">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta!</p>
+          <p class="item-price">$388</p>
+          <div class="item-btns">
+            <button class="item-buy-btn">buy now</button>
+            <button class="item-view-btn">view</button>
+          </div>
         </div>
       </div>
     </div>
-  </header>
+  </section>
+  <section class="section-two">
+      <i class="quote">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ex neque ducimus cum eligendi ut ea pariatur! Autem, repudiandae culpa!"</i>
+  </section>
+  <section class="section-three">
+    <div class="heading">
+      <h1 class="title">featured products </h1>
+      <p class="subtitle">we bring the best products</p>
+    </div>
+    <div class="second-items-container">
+      <div class="item-container">
+        <img class="item-image" src="img/showcase product.png" alt="">
+        <h2 class="item-name">lenovo yoga</h2>
+        <p class="item-specs">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta!</p>
+        <p class="item-price">$388</p>
+        <div class="item-btns">
+          <button class="item-buy-btn">buy now</button>
+          <button class="item-view-btn">view</button>
+        </div>
+      </div>
+      <div class="item-container">
+        <img class="item-image" src="img/showcase product.png" alt="">
+        <h2 class="item-name">lenovo yoga</h2>
+        <p class="item-specs">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta!</p>
+        <p class="item-price">$388</p>
+        <div class="item-btns">
+          <button class="item-buy-btn">buy now</button>
+          <button class="item-view-btn">view</button>
+        </div>
+      </div>
+      <div class="item-container">
+        <img class="item-image" src="img/showcase product.png" alt="">
+        <h2 class="item-name">lenovo yoga</h2>
+        <p class="item-specs">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta!</p>
+        <p class="item-price">$388</p>
+        <div class="item-btns">
+          <button class="item-buy-btn">buy now</button>
+          <button class="item-view-btn">view</button>
+        </div>
+      </div>
+      <div class="item-container">
+        <img class="item-image" src="img/showcase product.png" alt="">
+        <h2 class="item-name">lenovo yoga</h2>
+        <p class="item-specs">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta!</p>
+        <p class="item-price">$388</p>
+        <div class="item-btns">
+          <button class="item-buy-btn">buy now</button>
+          <button class="item-view-btn">view</button>
+        </div>
+      </div>
+      <div class="item-container">
+        <img class="item-image" src="img/showcase product.png" alt="">
+        <h2 class="item-name">lenovo yoga</h2>
+        <p class="item-specs">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta!</p>
+        <p class="item-price">$388</p>
+        <div class="item-btns">
+          <button class="item-buy-btn">buy now</button>
+          <button class="item-view-btn">view</button>
+        </div>
+      </div>
+      <div class="item-container">
+        <img class="item-image" src="img/showcase product.png" alt="">
+        <h2 class="item-name">lenovo yoga</h2>
+        <p class="item-specs">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta!</p>
+        <p class="item-price">$388</p>
+        <div class="item-btns">
+          <button class="item-buy-btn">buy now</button>
+          <button class="item-view-btn">view</button>
+        </div>
+      </div>
+      <div class="item-container">
+        <img class="item-image" src="img/showcase product.png" alt="">
+        <h2 class="item-name">lenovo yoga</h2>
+        <p class="item-specs">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta!</p>
+        <p class="item-price">$388</p>
+        <div class="item-btns">
+          <button class="item-buy-btn">buy now</button>
+          <button class="item-view-btn">view</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="upper-section">
+      <div class="footer-logo-section">
+        <h2 class="title logo">timgad</h2>
+        <p class="relative">We are the digital thinkers</p>
+      </div>
+      <div class="social-media">
+        <h3 class="title">follow us</h3>
+        <a href="facebook.com"><i class="fa-brands fa-facebook-square"></i></a>
+        <a href="instagram.com"><i class="fa-brands fa-instagram-square"></i></a>
+      </div>
+      <div class="location">
+        <h3 class="title">location</h3>
+        <p class="relative number">Avant supérette "mini-prix, Les, Alleés، Alles Salah Nezzar, Batna 05000</p>
+      </div>
+      <div class="contacts">
+        <h3 class="title">call us</h3>
+        <p class="relative number">+213 334 657 345</p>
+      </div>
+    </div>
+    <div class="lower-section">
+      <div class="line"></div>
+      <p id="copyright" class="relative copyright">&copy;2022 Timgad informatique. Vente et reparation material informatique company. All Rights Reserved</p>
+    </div>
+  </footer>
+  <!-- SECTION ONE -->
+
 </body>
 </html>

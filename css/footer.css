@@ -1,0 +1,56 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(98, 97, 97);
+  color: #edf7f6;
+  margin-top: 3rem;
+}
+
+.relative {
+  font-size: 0.9em;
+} 
+
+.upper-section {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.upper-section .title {
+  width: 100%;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 1rem 0;
+  text-transform: capitalize;
+
+}
+
+.footer-logo-section .logo {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.social-media {
+  text-align: center;
+}
+
+.social-media .title {
+  text-transform: capitalize;
+}
+
+.social-media i {
+  margin: 0 2px;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.lower-section {
+  text-align: center;
+  width: 80%;
+  margin-top: 3rem;
+  padding: 1rem;
+  border-top: 1px solid #edf7f6;
+}

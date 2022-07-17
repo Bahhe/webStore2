@@ -1,0 +1,17 @@
+.section-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 10rem;
+  background-image: url('../img/header-background-image2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.quote {
+  color: rgb(224, 217, 217);
+  max-width: 80%;
+}
