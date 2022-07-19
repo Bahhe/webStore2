@@ -1,0 +1,88 @@
+.main-header.contacts {
+  height: 40vh;
+}
+
+.contacts-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacts-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.contacts-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-input {
+  padding: 0.5rem;
+  width: 30rem;
+  background-color: transparent;
+  border: 1px solid #bab9b9;
+  margin-bottom: 1rem;
+}
+
+.contacts-label {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  padding-bottom: 0.8rem;
+}
+
+.contacts-text-area {
+  background-color: transparent;
+  border: 1px solid #bab9b9;
+  padding: 0.5rem;
+}
+
+.msg-btn {
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: inherit;
+  background-color: #85ed85;
+  padding: 0.5rem;
+  color: #fff;
+  border: none;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts h2 {
+  text-transform: capitalize;
+  padding: 1rem;
+  font-weight: 500;
+}
+
+.contacts p {
+  padding-bottom: 2rem;
+}
+
+.contacts h2 + p + h2 + p {
+  width: 50ch;
+  text-align: center;
+}
+
+.contacts-social-media a {
+  text-decoration: none;
+  color: #000;
+  font-size: 2rem;
+}
+
+.google-maps-location {
+  display: block;
+  margin: 5rem auto;
+  width: 90%;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+}

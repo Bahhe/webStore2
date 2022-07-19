@@ -1,0 +1,80 @@
+.main-header.register {
+  height: 20vh;
+}
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.register-form label {
+  transform: translateY(-40px);
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #626262;
+  transition: all 0.5s ease-in-out;
+}
+
+.register-container input {
+  width: 20rem;
+  padding: 1rem 0 0 0;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #c3c3c3;
+  font-size: 1.2rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.register-container input:focus + label {
+  color: #000;
+  transform: translateY(-65px);
+}
+
+.register-container input:focus,
+.register-container input:active {
+  outline: none;
+  border-bottom: 1px solid #000;
+}
+
+
+.register-container button {
+  cursor: pointer;
+  height: 2.5rem;
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  background-color: #000;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.register-container button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.terms-container {
+  margin-top: 1rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.terms-container input {
+  width: 2rem;
+  height: 1rem;
+  margin-right: 2px;
+  border: 1px solid #626262;
+  background-color: transparent;
+}

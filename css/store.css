@@ -1,0 +1,56 @@
+.filter-section {
+  width: 70%;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.filter-section select {
+  background-color: none;
+  border: 1px solid #000;
+  padding: 0.2rem 0.6rem;
+  font-size: 17px;
+  text-transform: capitalize;
+  font-family: inherit;
+} 
+
+.filter-section label {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.filter-btn  {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+
+.filter-btn:hover {
+  transform: rotate(-360deg);
+}
+
+.store-pages {
+  width: 100%;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.page {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #000;
+  font-size: 20px;
+  padding: 0.8rem;
+  transition: all 0.5s;
+}
+
+.page:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.page.active {
+  background-color: #000;
+  color: #fff;
+}

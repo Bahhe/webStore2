@@ -76,11 +76,20 @@
 }
 
 .search-user-cart button:hover {
-  color:rgb(255, 77, 77);
+  color:#ff4d4d;
 }
 
 .search-user-cart button i {
   font-size: 17px;
+}
+
+.search-user-cart button a  {
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.search-user-cart button a:hover  {
+  color:#ff4d4d;
 }
 
 .slider-container {
@@ -211,10 +220,11 @@
   justify-content: center;
   align-items: center;
   z-index: 9;
-  position: absolute;
-  width: 90%;
+  position: fixed;
+  width: 100vw;
   height: 100vh;
   backdrop-filter: blur(5px);
+  transition: all 0.5s;
 }
 
 .search-input input {
@@ -233,15 +243,16 @@
   padding-left: 30px;
   background-color: transparent;
   border: none;
+  transition: all 0.9s ease-in-out 2s;
 }
 
 .search-input button i:hover {
-  color: #ff4d4d;
+  transform: scale(0.99);
 }
 
 .search-input button i {
   font-size: 90px;
-  color: rgba(255, 254, 254, 0.633);
+  color: #ff4d4d;
 }
 
 .welcome-section {
@@ -269,15 +280,24 @@
   height: 3rem;
   border: 1px solid #fff;
   background-color: transparent;
-  color: #fff;
   margin-top: 2rem;
-  font-size: 1.5rem;
-  text-transform: capitalize;
-  font-family: inherit;
   transition: all 0.5s ease-in-out;
 }
 
 .welcome-section button:hover {
-  color: #000;
   background-color: #fff;
+  color: #000;
+}
+
+.welcome-section button a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-family: inherit;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.welcome-section button:hover a {
+  color: #000;
 }

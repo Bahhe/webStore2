@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -12,3 +13,52 @@ body {
   position: relative;
   overflow-x: hidden;
 }
+
+.get-up-btn, .fixed-cart {
+  position: fixed;
+  cursor: pointer;
+  bottom: 1.5rem;
+  padding: 0.7rem;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.9rem;
+
+}
+
+.get-up-btn {
+  transform: rotate(90deg);
+  right: 1.5rem;
+}
+
+.get-up-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.fixed-cart {
+  background-color: transparent;
+  color: #000;
+  left: 1.5rem;
+  transition: all 0.5s;
+}
+
+.fixed-cart:hover {
+  transform: translateY(-10px);
+}
+
+.fixed-cart::after {
+  content: '0';
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  right: 0;
+  background-color: #ff4d4d;
+  color: #fff;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  font-size: 20px;
+}
+

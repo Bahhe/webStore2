@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css"
+      integrity="sha512-1hsteeq9xTM5CX6NsXiJu3Y/g+tj+IIwtZMtTisemEv3hx+S9ngaW4nryrNcPM4xGzINcKbwUJtojslX2KG+DQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/global-style.css" />
+    <link rel="stylesheet" href="css/header-style.css" />
+    <link rel="stylesheet" href="css/section-one.css" />
+    <link rel="stylesheet" href="css/section-two.css" />
+    <link rel="stylesheet" href="css/section-three.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/cart-related.css" />
+    <link rel="stylesheet" href="css/store.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/user-register.css">
+    <link rel="stylesheet" href="css/user-login.css">
+    <script src="scripts/slider.js" defer></script>
+    <script src="scripts/search-bar.js" defer></script>
+    <script src="scripts/cart.js" defer></script>
+    <title>TIMGAD INFORMATIQUE | ABOUT</title>
+  </head>
+  <body>
+    <div class="fixed-cart"><i class="fas fa-shopping-cart"></i></div>
+    <div class="get-up-btn">
+      <a href="#logo"><i class="fas fa-chevron-left"></i></a>
+    </div>
+
+    <!-- CART CONTENT -->
+    <div class="shopping-cart-content">
+      <div class="cart-title">
+        your cart
+        <button class="cancel-cart"><i class="fas fa-xmark"></i></button>
+      </div>
+      <div class="cart-products-container">
+        <div class="cart-item">
+          <img class="cart-img" src="img/showcase product1.png" alt="" />
+          <div class="cart-product-info">
+            <div class="cart-product"><a href="#">lenovo thinkpad x1</a></div>
+            <div class="cart-price">$300</div>
+          </div>
+          <button class="cancel-item">x</button>
+        </div>
+        <div class="cart-item">
+          <img src="img/showcase product.png" alt="" />
+          <div class="cart-product-info">
+            <div class="cart-product"><a href="#">lenovo thinkpad x1</a></div>
+            <div class="cart-price">$300</div>
+          </div>
+          <button class="cancel-item">x</button>
+        </div>
+      </div>
+      <div class="checkout-items">
+        <div class="total-price">
+          total:<span class="total-price">$1990</span>
+        </div>
+        <div class="cart-btns">
+          <button class="view-cart-btn">view cart</button>
+          <button class="checkout-cart-btn">checkout</button>
+        </div>
+      </div>
+    </div>
+    <!-- CART CONTENT -->
+
+    <!-- SEARCH BAR -->
+    <form class="search-input" action="">
+      <input class="search-area" type="text" placeholder="  search..." />
+      <button class="input-btn" type="reset">
+        <i class="fas fa-xmark"></i>
+      </button>
+    </form>
+    <!-- SEARCH BAR -->
+
+    <!-- HEADER -->
+    <header class="main-header contacts">
+      <nav class="nav-bar">
+        <div id="logo" class="logo">
+          <a href="index.html">timgad</a>
+        </div>
+        <div class="navigation">
+          <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="store.html">store</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contact.html">contact us</a></li>
+          </ul>
+        </div>
+        <div class="search-user-cart">
+          <button class="search">
+            <i class="fas fa-magnifying-glass"></i>
+          </button>
+          <button class="cart"><i class="fas fa-shopping-cart"></i></button>
+          <button class="user"><a href="user-login.html"><i class="fas fa-user"></i></a></button>
+        </div>
+      </nav>
+      <div class="welcome-section">
+        <h1>let's talk</h1>
+        <p>
+          have a question? wondring about somthing <br />
+          reach out down below
+        </p>
+      </div>
+    </header>
+    <!-- HEADER -->
+
+    <div class="contacts-container">
+      <div class="contacts-form-container">
+        <form class="contacts-form" action="">
+          <label class="contacts-label" for="firstName">first name</label>
+          <input class="contacts-input" type="text" id="firstName" placeholder="First Name..."/>
+          <label class="contacts-label" for="lastName">last name</label>
+          <input class="contacts-input" type="text" id="lastName" placeholder="Last Name..."/>
+          <label class="contacts-label" for="email">email</label>
+          <input class="contacts-input" type="email" form="email" placeholder="Email..."/>
+          <label class="contacts-label" for="speech">tell us something</label>
+          <textarea class="contacts-text-area" name="speech" id="speech" cols="30" rows="10" placeholder="Text..."></textarea>
+          <input class="msg-btn" type="submit"/>
+        </form>
+      </div>
+      <div class="contacts">
+        <h2>number</h2>
+        <p>+213 349 3409 343</p>
+        <h2>location</h2>
+        <p>
+          Avant supérette "mini-prix, Les, Alleés، Alles Salah Nezzar, Batna
+          05000
+        </p>
+        <h2>social media</h2>
+        <div class="contacts-social-media">
+          <a href="facebook.com"><i class="fa-brands fa-facebook-square"></i></a>
+          <a href="instagram.com"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <iframe class="google-maps-location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3246.328931476467!2d6.167965615627772!3d35.54557774500618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f41199abaa7f7b%3A0x8b94516c7ba95aac!2sTimgad%20Informatique!5e0!3m2!1sen!2sdz!4v1658188019457!5m2!1sen!2sdz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <!-- FOOTER  -->
+    <footer>
+      <div class="upper-section">
+        <div class="footer-logo-section">
+          <h2 class="title logo">timgad</h2>
+          <p class="relative">We are the digital thinkers</p>
+        </div>
+        <div class="social-media">
+          <h3 class="title">follow us</h3>
+          <a href="facebook.com"
+            ><i class="fa-brands fa-facebook-square"></i
+          ></a>
+          <a href="instagram.com"
+            ><i class="fa-brands fa-instagram-square"></i
+          ></a>
+        </div>
+        <div class="location">
+          <h3 class="title">location</h3>
+          <p class="relative number">
+            Avant supérette "mini-prix, Les, Alleés، Alles Salah Nezzar, Batna
+            05000
+          </p>
+        </div>
+        <div class="contacts">
+          <h3 class="title">call us</h3>
+          <p class="relative number">+213 334 657 345</p>
+        </div>
+      </div>
+      <div class="lower-section">
+        <div class="line"></div>
+        <p id="copyright" class="relative copyright">
+          &copy;2022 Timgad informatique. Vente et reparation material
+          informatique company. All Rights Reserved
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

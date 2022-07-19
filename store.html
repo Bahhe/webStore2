@@ -23,16 +23,16 @@
     <link rel="stylesheet" href="css/section-two.css" />
     <link rel="stylesheet" href="css/section-three.css" />
     <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/cart-related.css" />
     <link rel="stylesheet" href="css/store.css" />
+    <link rel="stylesheet" href="css/cart-related.css" />
     <link rel="stylesheet" href="css/about.css" />
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/user-register.css">
     <link rel="stylesheet" href="css/user-login.css">
     <script src="scripts/slider.js" defer></script>
-    <script src="scripts/search-bar.js" defer></script>
     <script src="scripts/cart.js" defer></script>
-    <title>TIMGAD INFORMATIQUE | HOME</title>
+    <script src="scripts/search-bar.js" defer></script>
+    <title>TIMGAD INFORMATIQUE | STORE</title>
   </head>
   <body>
     <div class="fixed-cart"><i class="fas fa-shopping-cart"></i></div>
@@ -88,7 +88,7 @@
     <!-- HEADER -->
     <header class="main-header">
       <nav class="nav-bar">
-        <div id="logo" class="logo">
+        <div class="logo" id="logo">
           <a href="index.html">timgad</a>
         </div>
         <div class="navigation">
@@ -108,7 +108,7 @@
         </div>
       </nav>
       <div class="welcome-section">
-        <h1>welcome to your best store</h1>
+        <h1>store</h1>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
           reprehenderit, sed laborum labore itaque illo ex error voluptate quas
@@ -119,114 +119,28 @@
     </header>
     <!-- HEADER -->
 
-    <!-- SECTION ONE -->
-    <section class="section-one">
+    <!-- STORE PRODUCTS SECTION -->
+    <div class="store-products">
       <div class="heading">
-        <h1 class="title" id="explore">new arrivals</h1>
+        <h1 class="title" id="explore">our products</h1>
         <p class="subtitle">we bring the best products</p>
       </div>
-      <div class="slider-container">
-        <button class="left-slide-btn">
-          <i class="fas fa-chevron-left"></i>
-        </button>
-        <button class="right-slide-btn">
-          <i class="fas fa-chevron-right"></i>
-        </button>
-        <div class="items-slider">
-          <div class="item-container">
-            <img class="item-image" src="img/showcase product.png" alt="" />
-            <h2 class="item-name">lenovo yoga</h2>
-            <p class="item-specs">
-              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Soluta!
-            </p>
-            <p class="item-price">$388</p>
-            <div class="item-btns">
-              <button class="item-buy-btn">buy now</button>
-              <button class="item-view-btn">view</button>
-            </div>
-          </div>
-          <div class="item-container">
-            <img class="item-image" src="img/showcase product.png" alt="" />
-            <h2 class="item-name">lenovo yoga</h2>
-            <p class="item-specs">
-              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Soluta!
-            </p>
-            <p class="item-price">$388</p>
-            <div class="item-btns">
-              <button class="item-buy-btn">buy now</button>
-              <button class="item-view-btn">view</button>
-            </div>
-          </div>
-          <div class="item-container">
-            <img class="item-image" src="img/showcase product.png" alt="" />
-            <h2 class="item-name">lenovo yoga</h2>
-            <p class="item-specs">
-              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Soluta!
-            </p>
-            <p class="item-price">$388</p>
-            <div class="item-btns">
-              <button class="item-buy-btn">buy now</button>
-              <button class="item-view-btn">view</button>
-            </div>
-          </div>
-          <div class="item-container">
-            <img class="item-image" src="img/showcase product.png" alt="" />
-            <h2 class="item-name">lenovo yoga</h2>
-            <p class="item-specs">
-              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Soluta!
-            </p>
-            <p class="item-price">$388</p>
-            <div class="item-btns">
-              <button class="item-buy-btn">buy now</button>
-              <button class="item-view-btn">view</button>
-            </div>
-          </div>
-          <div class="item-container">
-            <img class="item-image" src="img/showcase product.png" alt="" />
-            <h2 class="item-name">lenovo yoga</h2>
-            <p class="item-specs">
-              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Soluta!
-            </p>
-            <p class="item-price">$388</p>
-            <div class="item-btns">
-              <button class="item-buy-btn">buy now</button>
-              <button class="item-view-btn">view</button>
-            </div>
-          </div>
-          <div class="item-container">
-            <img class="item-image" src="img/showcase product.png" alt="" />
-            <h2 class="item-name">lenovo yoga</h2>
-            <p class="item-specs">
-              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Soluta!
-            </p>
-            <p class="item-price">$388</p>
-            <div class="item-btns">
-              <button class="item-buy-btn">buy now</button>
-              <button class="item-view-btn">view</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- END OF SECTION ONE  -->
-
-    <!--SECTION TWO  -->
-    <section class="section-two">
-      <i class="quote"
-        >"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ex
-        neque ducimus cum eligendi ut ea pariatur! Autem, repudiandae culpa!"</i
-      >
-    </section>
-    <section class="section-three">
-      <div class="heading">
-        <h1 class="title">featured products</h1>
-        <p class="subtitle">we bring the best products</p>
+      <div class="filter-section">
+        <form action="">
+          <label for="filter">filter products</label>
+          <select name="filter" id="items">
+            <option value="default">default</option>
+            <option value="price: highest to lowest">
+              price: highest to lowest
+            </option>
+            <option value="price: lowest to highest">
+              price: lowest to highest
+            </option>
+          </select>
+          <button class="filter-btn">
+            <i class="fas fa-arrow-rotate-left"></i>
+          </button>
+        </form>
       </div>
       <div class="second-items-container">
         <div class="item-container">
@@ -321,10 +235,15 @@
           </div>
         </div>
       </div>
-    </section>
-    <!-- END OF SECTION TWO  -->
+      <div class="store-pages">
+        <button class="page">1</button>
+        <button class="page active">2</button>
+        <button class="page">3</button>
+        <button class="page">></button>
+      </div>
+    </div>
 
-    <!-- FOOTER  -->
+    <!-- FOOTER -->
     <footer>
       <div class="upper-section">
         <div class="footer-logo-section">
@@ -360,6 +279,5 @@
         </p>
       </div>
     </footer>
-    <!-- SECTION ONE -->
   </body>
 </html>
