@@ -8,6 +8,8 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   font-family: 'Inconsolata', 'Sans serif';
   position: relative;

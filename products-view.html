@@ -32,6 +32,8 @@
     <link rel="stylesheet" href="css/products-view.css">
     <script src="scripts/search-bar.js" defer></script>
     <script src="scripts/cart.js" defer></script>
+    <script src="scripts/change-img.js" defer></script>
+    <script src="scripts/view-items.js" defer></script>
     <title>TIMGAD INFORMATIQUE | ABOUT</title>
   </head>
   <body>
@@ -86,7 +88,7 @@
     <!-- SEARCH BAR -->
 
     <!-- HEADER -->
-    <header class="main-header contacts">
+    <header class="main-header product-view">
       <nav class="nav-bar">
         <div id="logo" class="logo">
           <a href="index.html">timgad</a>
@@ -108,45 +110,32 @@
         </div>
       </nav>
       <div class="welcome-section">
-        <h1>let's talk</h1>
-        <p>
-          have a question? wondring about somthing <br />
-          reach out down below
-        </p>
+        <h1>product view</h1>
+        <p>have a look</p>
       </div>
     </header>
     <!-- HEADER -->
 
-    <div class="contacts-container">
-      <div class="contacts-form-container">
-        <form class="contacts-form" action="">
-          <label class="contacts-label" for="firstName">first name</label>
-          <input class="contacts-input" type="text" id="firstName" placeholder="First Name..."/>
-          <label class="contacts-label" for="lastName">last name</label>
-          <input class="contacts-input" type="text" id="lastName" placeholder="Last Name..."/>
-          <label class="contacts-label" for="email">email</label>
-          <input class="contacts-input" type="email" form="email" placeholder="Email..."/>
-          <label class="contacts-label" for="speech">tell us something</label>
-          <textarea class="contacts-text-area" name="speech" id="speech" cols="30" rows="10" placeholder="Text..."></textarea>
-          <input class="msg-btn" type="submit"/>
-        </form>
-      </div>
-      <div class="contacts">
-        <h2>number</h2>
-        <p>+213 349 3409 343</p>
-        <h2>location</h2>
-        <p>
-          Avant supérette "mini-prix, Les, Alleés، Alles Salah Nezzar, Batna
-          05000
-        </p>
-        <h2>social media</h2>
-        <div class="contacts-social-media">
-          <a href="facebook.com"><i class="fa-brands fa-facebook-square"></i></a>
-          <a href="instagram.com"><i class="fa-brands fa-instagram-square"></i></a>
+    <div id="item-view" class="product-view-container">
+      <div class="product-show">
+        <div class="images">
+          <div class="main-image">
+            <img src="img/showcase product1.png" alt="">
+          </div>
+          <div class="sub-images">
+            <img src="img/showcase product1.png" alt="">
+            <img src="img/showcase product.png" alt="">
+            <img src="img/showcase product1.png" alt="">
+          </div>
         </div>
       </div>
+      <div class="products-information">
+        <span class="product-view-title">dell xps 15</span>
+        <span class="product-view-info">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tempora numquam dolor ratione accusantium iure. Odit, autem eius architecto culpa deleniti eum exercitationem, perferendis officiis ratione explicabo iure tenetur dolores at reprehenderit dolorem harum qui dolore eaque quidem voluptatem. adipisicing.</span>
+        <span class="product-view-price">$1222</span>
+        <button class="buy-now-btn">buy now</button>
+      </div>
     </div>
-    <iframe class="google-maps-location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3246.328931476467!2d6.167965615627772!3d35.54557774500618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f41199abaa7f7b%3A0x8b94516c7ba95aac!2sTimgad%20Informatique!5e0!3m2!1sen!2sdz!4v1658188019457!5m2!1sen!2sdz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     <!-- FOOTER  -->
     <footer>
